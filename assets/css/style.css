@@ -64,7 +64,12 @@ p{
     outline: none;
     cursor: pointer;
 }
-
+.heroText button:hover{
+    background: black;
+}
+img{
+    margin-bottom: -4px;
+}
 /* end hero section css */
 .feature{
     padding-top: 178px;
@@ -151,8 +156,212 @@ p{
     text-align: center;
     font-family: Lato;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 35px;
     margin-top: 24px;
+}
+
+/* CTA CSS */
+.ctaScetion{
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0px 100px 0px;
+}
+.ctaContent {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.ctaText{
+    text-align: center;
+}
+.ctaText h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+.ctaText p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.ctaText button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.ctaText button:hover{
+    background: black;
+}
+/* Love Flower */
+.loveFlower{
+    padding-top: 128px;
+}
+.loveFlowerImg img{
+    margin-right: 80px;
+}
+.loveFlowerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.loveFlowerContent h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.loveFlowerContent p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* Instagram CSS */
+.instagramSec{
+    padding: 128px 0px 128px 0px;
+}
+.instagramHead h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagramHead p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.instagramItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Subscribe CSS */
+.bg{
+    background-image: url(/assets/img/Rectangle\ 9.png);
+    padding: 122px 0px 121px 0px;
+    margin-bottom: 128px;
+}
+.subscribeHead {
+    text-align: center;
+}
+.subscribeHead h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+.subscribeHead p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.subscribeFrom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subscribeFrom input{
+    width: 700px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: 0;
+    padding: 22px;
+}
+.subscribeFrom button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.subscribeFrom button:hover{
+    background: black;
+}
+
+/* Footer CSS */
+.footer{
+    background-color: black;
+    padding: 128px 0px 128px 0px;
+    text-align: center;
+}
+.footerContent h1{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+.footerContent h1 span{
+    color: #FFF;
+}
+.footerContent .footerText{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px 32px 0px;
+}
+.footerContent .copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.footerContent .copy a{
+    color: rgba(255, 255, 255, 0.40);
+    text-decoration: none;
 }
